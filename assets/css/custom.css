@@ -1,0 +1,47 @@
+:root{
+--hawk-shield-blue:#00B5E2;
+--teal-accent:#00A6AD;
+--deep-navy:#0A1E33;
+--electric-blue:#009CDE;
+--white:#FFFFFF;
+--graphite:#2D3E50;
+--slate:#3C4F63;
+}
+
+
+/* Global brand tweaks */
+body{ color: var(--white); background: var(--deep-navy); }
+.site-header, .site-footer{ background: var(--deep-navy); }
+.site-title, .site-nav .page-link{ color: var(--white) !important; }
+.site-nav .page-link:hover{ color: var(--hawk-shield-blue) !important; }
+
+
+/* Buttons */
+.button{
+display:inline-block; padding:.6rem 1rem; border-radius:.75rem;
+border:1px solid var(--electric-blue); text-decoration:none; font-weight:600;
+}
+.button--primary{ background: var(--electric-blue); color: var(--white); }
+.button--outline{ background: transparent; color: var(--electric-blue); }
+
+
+/* Card */
+.card{
+background: linear-gradient(180deg, rgba(10,30,51,.85), rgba(10,30,51,.95));
+border:1px solid rgba(255,255,255,.06); border-radius:1rem; padding:1rem; margin:1rem 0;
+box-shadow: 0 10px 24px rgba(0,0,0,.25);
+}
+
+
+/* Headings */
+h1,h2,h3{ color: var(--white); }
+hr{ border-color: rgba(255,255,255,.1); }
+
+
+/* Link color */
+a{ color: var(--hawk-shield-blue); }
+a:hover{ color: var(--electric-blue); }
+
+
+/* Minima content area tweak for readability */
+.post-content{ max-width: 900px; }
