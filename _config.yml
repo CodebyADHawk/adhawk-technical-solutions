@@ -1,0 +1,33 @@
+title: ADHawk Technical Solutions
+email: adam@adhawksolutions.com
+description: >-
+Protecting Access. Empowering People. Security • Networking • IAM • SaaS • Support.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # set later if using custom domain
+
+
+# Build settings
+theme: minima
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+
+
+# Navigation (minima supports header_pages)
+header_pages:
+- index.md
+- services.md
+- resume.md
+- privacy.md
+- contact.md
+
+
+# Brand colors to reuse in CSS
+adhawk_colors:
+hawk_shield_blue: "#00B5E2"
+teal_accent: "#00A6AD"
+deep_navy: "#0A1E33"
+electric_blue: "#009CDE"
+white: "#FFFFFF"
+graphite_gray: "#2D3E50"
+slate_gray: "#3C4F63"
